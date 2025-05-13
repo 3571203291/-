@@ -2,32 +2,47 @@
   <head>
     <title>主页</title>
     <style>
-      body {
-        margin: 50px;
+      html, body {
+        height: 100%;
+        margin: 0;
       }
+
+      .border-wrapper {
+        height: 100%;
+        border-left: 5px solid black;
+        border-right: 5px solid black;
+        box-sizing: border-box;
+        padding: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+      }
+
       .title {
         font-size: 60px;
         font-weight: bold;
         text-align: center;
         margin-bottom: 15px;
       }
-      .link-container {
+
+      .a {
         font-size: 55px;
         font-weight: bold;
         margin: 15px 0;
       }
-      .link-container div{
-        margin-bottom: 15px
+
+      .a div {
+        margin-bottom: 15px;
       }
     </style>
   </head>
   <body>
-    <div class="title">扶阳镇</div>
-    <hr>
-
-    <div class="link-container">
-      <div><a href="副页/人名册/人名册.html">人名册</a></div>
-      <div><a href="副页/照片墙/照片墙.html">照片墙</a></div>
+    <div class="border-wrapper">
+      <div class="title">扶阳镇</div>
+      <hr>
+      <div class="a">
+        <div><a href="副页/人名册/人名册.html">人名册</a></div>
+        <div><a href="副页/照片墙/照片墙.html">照片墙</a></div>
+      </div>
     </div>
   </body>
 </html>
