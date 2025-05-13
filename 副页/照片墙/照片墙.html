@@ -1,25 +1,52 @@
 <html>
-    <head>
-      <title>照片墙</title>
-        <style>
-            img {
-                width: 100%;
-                height: auto;
-                margin-bottom: 20px;
-            }
-        </style>
-    </head>
-    <body style="margin: 50px;">
-        <center>
-        <div style="font-size: 60px; font-weight: bold;">照片墙</div>
-        <br><br><br>
-        <div>
-            <img src="图片/1.jpg" alt="Error" width="500" height="290">
-            <img src="图片/2.jpg" alt="Error" width="500" height="290">
-            <img src="图片/3.jpg" alt="Error" width="500" height="290">
-            <img src="图片/4.jpg" alt="Error" width="500" height="290">
-            <img src="图片/5.jpg" alt="Error" width="500" height="290">
-        </center>
-        </div>
-    </body>
+  <head>
+    <title>照片墙</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+
+      .border-wrapper {
+        height: 100%;
+        border-left: 5px solid black;
+        border-right: 5px solid black;
+        box-sizing: border-box;
+        padding: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .title {
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="border-wrapper">
+      <div class="title">照片墙</div>
+      <br><br><br>
+      <div>
+        <img src="图片/1.jpg" alt="Error" width="500" height="290">
+        <img src="图片/2.jpg" alt="Error" width="500" height="290">
+        <img src="图片/3.jpg" alt="Error" width="500" height="290">
+        <img src="图片/4.jpg" alt="Error" width="500" height="290">
+        <img src="图片/5.jpg" alt="Error" width="500" height="290">
+      </div>
+    </div>
+  </body>
 </html>
