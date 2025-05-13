@@ -2,34 +2,54 @@
   <head>
     <title>人名册</title>
     <style>
-        body {
-            margin: 50px;
-        }
-        .title {
-            font-size: 80px;
-            font-weight: bold;
-        }
-        .a {
-            font-size: 55px;
-            font-weight: bold;
-            margin-top: 15px;
-            margin-bottom: 15px
-        }
-        li {
-            font-size: 55px;
-            margin-top: 15px;
-            margin-bottom: 15px
-        }
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+
+      .border-wrapper {
+        height: 100%;
+        border-left: 5px solid black;
+        border-right: 5px solid black;
+        box-sizing: border-box;
+        padding: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .title {
+        font-size: 80px;
+        font-weight: bold;
+      }
+
+      .a {
+        font-size: 55px;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+
+      li {
+        font-size: 55px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
     </style>
   </head>
   <body>
-    <div class="title">人名册</div>
-    <hr>
-    <div class="a">群主: 镀铭</div>
-    <div class="a">管理员: 南黎 书记 🐟</div>
-    <hr>
-    <div class="a">成员:</div>
-    <ul>
+    <div class="border-wrapper">
+      <div class="title">人名册</div>
+      <hr>
+      <div class="a">群主: 镀铭</div>
+      <div class="a">管理员: 南黎 书记 🐟</div>
+      <hr>
+      <div class="a">成员:</div>
+      <ul>
         <li style="color: darkviolet;">镀铭的老大</li>
         <li>林夕</li>
         <li>临枫</li>
@@ -43,6 +63,7 @@
         <li>软软</li>
         <li>QXR.</li>
         <li>枫叶羽</li>
-    </ul>
+      </ul>
+    </div>
   </body>
 </html>
